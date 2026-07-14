@@ -1,0 +1,11 @@
+result_id,dataset,analysis,n,events,comparison,effect_measure,estimate,lower_95,upper_95,interpretation_boundary
+NH-PRIMARY-P1,NHANES 2011-2018,Complex-survey fully adjusted Cox,3979,720,P1 vs P3,HR,1.6830536847,1.3032551601,2.1735342337,Primary community association
+NH-SECONDARY-P2,NHANES 2011-2018,Complex-survey fully adjusted Cox,3979,720,P2 vs P3,HR,0.9688067540,0.7810017394,1.2017726456,Context-dependent secondary phenotype
+MIMIC-PRIMARY-P1,MIMIC-IV v3.1,Deterministic official OASIS quartile-stratified Cox,1145,574,P1 vs P3,HR,1.6670612438,1.3587068217,2.0453957736,Conceptual replication not fixed-centroid validation
+MIMIC-SECONDARY-P2,MIMIC-IV v3.1,Deterministic official OASIS quartile-stratified Cox,1145,574,P2 vs P3,HR,1.5673945078,1.2353428895,1.9886993027,Secondary and selection-sensitive
+MIMIC-IPW-P1,MIMIC-IV v3.1,Selection-IPW deterministic official OASIS quartile-stratified Cox,1145,574,P1 vs P3,HR,1.7077917587,1.2945754900,2.2529027573,Selection-weighted sensitivity
+EICU-PRIMARY-P1,eICU v2.0,APACHE-adjusted hospital-random-intercept model,12548,1884,P1 vs P3,OR,1.2817679151,1.1089992229,1.4814518841,Multicenter stress test
+EICU-SECONDARY-P2,eICU v2.0,APACHE-adjusted hospital-random-intercept model,12548,1884,P2 vs P3,OR,0.9478116943,0.8069829507,1.1132168370,Context-dependent secondary phenotype
+TOOL-TEMPORAL-AUC,NHANES 2015-2016,Locked 36-month full-model temporal transport,988,93,Full model,AUC,0.7480047135,,,Exploratory within-NHANES validation only
+TOOL-LOCKED-THRESHOLD,NHANES 2011-2014,Development-locked risk threshold,1954,177,Predicted 36-month risk,probability,0.0666572069,,,No clinical deployment claim
+TOOL-HISTORICAL-AUC,NHANES 2005-2010,Fixed-coefficient historical transport,3566,351,Full model,AUC,0.7594803877,,,Historical within-NHANES transport only

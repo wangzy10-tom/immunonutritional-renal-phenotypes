@@ -1,0 +1,37 @@
+order,script,stage,role,release_class
+0,00_run_pipeline.R,utility,Stage-specific isolated-process runner,Release utility
+1,27_rebuild_NHANES_2011_2018.R,nhanes,Rebuild four-cycle NHANES cohort and linked mortality,Frozen core path-normalized
+2,27B_augment_NHANES_covariates.R,nhanes,Add smoking hypertension and diabetes,Frozen core path-normalized
+3,28_NHANES_robust_phenotype_reanalysis.R,nhanes,Frozen robust six-feature phenotype,Frozen core path-normalized
+4,28B_NHANES_cluster_number_validation.R,nhanes,Cluster-number and subsampling stability,Frozen core path-normalized
+5,29_NHANES_albumin_and_conventional_benchmarks.R,nhanes,Albumin and conventional benchmark models,Frozen core path-normalized
+6,32_NHANES_cluster_aware_bootstrap_and_PH.R,nhanes,Reclustering bootstrap and PH audit,Frozen core path-normalized
+7,32B_NHANES_time_varying_score.R,nhanes,Time-varying continuous score,Frozen core path-normalized
+8,33_NHANES_selection_bias_sensitivity.R,nhanes,NHANES selection audit and IPW,Frozen core path-normalized
+9,34_NHANES_bootstrap_Cindex_increment.R,nhanes,Cluster-aware out-of-bag C-index,Frozen core path-normalized
+10,35_NHANES_leave_one_cycle_out_validation.R,nhanes,Leave-one-cycle-out transportability,Frozen core path-normalized
+11,09A_build_NHANES_projection_reference.R,mimic,Build local Freeze V2 projection compatibility object,Release support new no scientific model change
+12,09_MIMIC_IV_external_validation_formal.R,mimic,Strict first-24-hour MIMIC extraction,Frozen core path-normalized
+13,09B_MIMIC_IV_de_novo_reproducibility.R,mimic,Build de novo MIMIC transition dataset,Historical support path-normalized
+14,25_MIMIC_OASISlike_severity_adjustment.R,mimic,Build transitional OASIS-like score,Historical support superseded by official OASIS
+15,30_MIMIC_IV_24h_robust_revalidation.R,mimic,MIMIC de novo robust phenotype,Frozen core path-normalized
+16,10_eICU_multicenter_validation.R,eicu,Strict first-24-hour eICU extraction,Frozen core path-normalized
+17,14_eICU_APACHE_adjusted_sensitivity.R,eicu,Build APACHE IVa support object,Historical support path-normalized
+18,31_eICU_24h_robust_revalidation.R,eicu,eICU de novo phenotype and APACHE mixed model,Frozen core path-normalized
+19,39_ICU_complete_case_selection_audit.R,cross_database,ICU complete-case selection audit,Frozen core path-normalized
+20,41_MIMIC_official_OASIS_v301.R,mimic,Official MIT-LCP v3.0.1 OASIS reconstruction,Frozen core path-normalized
+21,42_MIMIC_official_first_day_SOFA_v301.R,mimic,Official MIT-LCP v3.0.1 first-day SOFA,Frozen core path-normalized
+22,40_harmonised_albumin_cross_database_sensitivity.R,cross_database,Harmonized albumin sensitivity,Frozen core path-normalized
+23,43_eICU_hospital_heterogeneity.R,cross_database,Hospital heterogeneity and leave-one-out audit,Frozen core path-normalized
+24,44_age_sex_effect_modification.R,cross_database,Limited age and sex interactions,Frozen core path-normalized
+25,38_NHANES_adjusted_absolute_risk_RMST.R,cross_database,Adjusted absolute risk and RMST,Frozen core path-normalized
+26,36_build_corrected_publication_tables.R,cross_database,Build frozen publication tables,Frozen core path-normalized
+27,37_verify_corrected_publication_tables.R,cross_database,Publication-table QA,Frozen core path-normalized
+28,45_build_final_analysis_freeze_v2.R,cross_database,Build final result dictionary and freeze,Frozen core path-normalized
+29,46_audit_frozen_pipeline_and_analysis.R,internal_audit,Internal full-pipeline and manuscript audit,Included for provenance not public clean-run gate
+30,47_alternative_clustering_freeze_v2.R,postfreeze,Alternative clustering sensitivity,Freeze V2 supplementary path-normalized
+31,48_NHANES_nonlinearity_threshold_freeze_v2.R,postfreeze,Nonlinearity and threshold stability,Freeze V2 supplementary path-normalized
+32,50_NHANES_locked_36m_risk_model.R,exploratory_tool,Locked NHANES-only 36-month risk formula used in Table S19,Path-normalized and numerically verified
+33,51_NHANES_2005_2010_historical_transport_validation.R,exploratory_tool,Fixed-coefficient historical NHANES 2005-2010 transport,Path-normalized and numerically verified
+34,70_NHANES_amendment14_cluster_sensitivity.R,postfreeze,Locked K and single-index sensitivities,Amendment 14 path-normalized
+35,71_audit_amendment14.R,postfreeze,Independent Amendment 14 audit,Amendment 14 path-normalized
