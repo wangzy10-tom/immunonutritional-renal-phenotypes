@@ -1,0 +1,10 @@
+dataset,rule,selected_k
+NHANES,global maximum,2
+NHANES,Tibshirani 1-SE,1
+NHANES,first local maximum within 1-SE,1
+MIMIC-IV,global maximum,6
+MIMIC-IV,Tibshirani 1-SE,1
+MIMIC-IV,first local maximum within 1-SE,1
+eICU,global maximum,6
+eICU,Tibshirani 1-SE,6
+eICU,first local maximum within 1-SE,6

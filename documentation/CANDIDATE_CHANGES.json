@@ -1,0 +1,238 @@
+{
+  "scripts": [
+    {
+      "source_file": "82_NHANES_PNI_HALP_robust_benchmark.R",
+      "original_sha256": "916ae54dc6fafb6e3880d58ff8a52ed0e8f6f4a5b753bfcdc80c36847c391561",
+      "candidate_sha256": "135d03528a338f225510867c2eb47d40a821aabfba853248581f9c0ae4965f4e",
+      "modification": "Only project/input-path portability; whole-source and function equivalence checked 2026-09-04; no new model run."
+    },
+    {
+      "source_file": "86_K_resolution_sensitivity_2026-08-30.R",
+      "original_sha256": "423c55c5c18909bc94206643c2258e460a0f4d749afd8a176a2784754ce2e09b",
+      "candidate_sha256": "41284f5c792377af6ab84838b13cb09377ffa69176f3ea170020982f908bf273",
+      "modification": "Only project/input-path portability; whole-source and function equivalence checked 2026-09-04; no new model run."
+    },
+    {
+      "source_file": "87_K_selection_diagnostics_2026-08-30.R",
+      "original_sha256": "cd81af08a84274ea34626d42fd97e185e7cb78162ee033533895d288e2b1c01a",
+      "candidate_sha256": "93571608a5fafde9635033cbe944c2803ed1a5f11c33a53daab0bea2ce64cb81",
+      "modification": "Only project/input-path portability; whole-source and function equivalence checked 2026-09-04; no new model run."
+    },
+    {
+      "source_file": "87_post_result_reviewer_sensitivities_2026-08-30.R",
+      "original_sha256": "6207467294e8b298b3336003e7a1d75e05eefcffb0c195a072713a1d9f924652",
+      "candidate_sha256": "7b8803251939bf2f5fffbcbe08b9b51639d5c0a46d36674d4267498352ea3a01",
+      "modification": "Only project/input-path portability; whole-source and function equivalence checked 2026-09-04; no new model run."
+    }
+  ],
+  "reference_tables": [
+    {
+      "group": "PNI_HALP",
+      "file": "aggregate_results/PNI_HALP/Table82A_PNI_HALP_distribution_audit.csv",
+      "sha256": "969bf25906fee96c9f463cdfea305bf528a3cfc26c15035cfc68e809dfb94544",
+      "rows": 2
+    },
+    {
+      "group": "PNI_HALP",
+      "file": "aggregate_results/PNI_HALP/Table82B_corrected_PNI_HALP_benchmarks.csv",
+      "sha256": "ea1023f97ba14d3ea3e0dea2488898270660e0e7ad0919d32a863c37ea15bc5f",
+      "rows": 2
+    },
+    {
+      "group": "PNI_HALP",
+      "file": "aggregate_results/PNI_HALP/Table82C_P1_beyond_corrected_PNI_HALP.csv",
+      "sha256": "58f8b32104a513bbbc9199f2e614307a058457f54b151b01472eb642c273ee01",
+      "rows": 2
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86A_method_details.csv",
+      "sha256": "752ba17e2261200b7fbcc58389c76568b7d78e17f5e8dee47b5b4b299edbcd05",
+      "rows": 2
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86B_phenotype_profiles.csv",
+      "sha256": "be925250331df93d39556f1d660f3b768d37d339247c2f8f9157006562a6451c",
+      "rows": 18
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86C_outcome_models.csv",
+      "sha256": "d5e1bd54e5ef5d665ed169e7cfae8a7c396f48f5716bc69964d08a92d7ad72d1",
+      "rows": 12
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86D_agreement_with_primary_K3.csv",
+      "sha256": "e56b0bffef8566304ce8abdb141130215e8d83e60def49dbda1fe366a525517c",
+      "rows": 6
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86E_biological_directions.csv",
+      "sha256": "151b934b721e1e8295a5e6c47f12e84e35fab864fbb624ea45b2aaf0991734fd",
+      "rows": 6
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86F_algorithm_diagnostics.csv",
+      "sha256": "546252454e9290fb4e202c596ee6ed112b7b9b53933fd6fad1ad08b4d956a5e4",
+      "rows": 6
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86G_outcome_model_diagnostics.csv",
+      "sha256": "1f4eda615104ecf647af66d1d8ec3b607a0ad22669e547f7ab0a21fbdd2aeae9",
+      "rows": 6
+    },
+    {
+      "group": "K_resolution",
+      "file": "aggregate_results/K_resolution/Table86H_QA.csv",
+      "sha256": "4bf67d044b716f8e07dcba88306eb661521c103f5a15d9fcf6a1f562c4e72f76",
+      "rows": 12
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87A_gap_statistic.csv",
+      "sha256": "dcf73039847e53f987bf7d64b39c232b0d6cc32b9a1e28d31788bb16910ced53",
+      "rows": 18
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87B_gap_selected_k.csv",
+      "sha256": "d0cad6353269f67701983b25d310eb79e212d5b73a5751a249c47a821435ce05",
+      "rows": 9
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87C_silhouette.csv",
+      "sha256": "dfbe87f48c42cc82cbf9857f297dc34d87151f103ca39cc0536442ceab523242",
+      "rows": 15
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87D_consensus_summary.csv",
+      "sha256": "2275e4f8a7959fbecaf1cc34948ff5704b016b0a82cb9efcc332eb9ec7966d69",
+      "rows": 15
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87E_consensus_cdf.csv",
+      "sha256": "5695ecce6b81ecddf8a93842a49e4b620224b8642076682feda0339d94a91c41",
+      "rows": 1515
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87F_subsampling_ARI_summary.csv",
+      "sha256": "6c8506749855e36c3badc63d78f1081ce68da80cdf84f6451ab53d2b6bca48ff",
+      "rows": 15
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87G_clusterwise_Jaccard_summary.csv",
+      "sha256": "00c17c25d5793dec72e7e660411cc83f18bc9bc7cd27a7d66abb8e99adc84792",
+      "rows": 60
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87H_cluster_sizes.csv",
+      "sha256": "cc8a114acd1d3fe97072b30ac748e536680f3571e2627a840b639a1239f7ffdd",
+      "rows": 60
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87I_stability_and_size_gates.csv",
+      "sha256": "d4314fab17a7f21152395f16444183eb0f9154223388cf5a4efbea42bf11aa57",
+      "rows": 15
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87J_kmeans_diagnostics.csv",
+      "sha256": "71d4e3c058af71e925ba04939d3190a19a29c16b8c933eee07727866ea4dc985",
+      "rows": 15
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87K_database_decision_matrix.csv",
+      "sha256": "5c87159f3e9f5917c5e5297885202f95bc8499fed1fed0f120ee08102269a0cf",
+      "rows": 3
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87L_cross_database_decision.csv",
+      "sha256": "e9794897cd323d8e4a9ea497a8e08a5435096dc8eee7669923bd2ed4f7026b70",
+      "rows": 1
+    },
+    {
+      "group": "K_selection",
+      "file": "aggregate_results/K_selection/Table87M_QA.csv",
+      "sha256": "342f1575d4c9534202266abea033b745d212f963e9a3d87140221a249e816873",
+      "rows": 10
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87A_NHANES_creatinine_component_adjustment.csv",
+      "sha256": "58a2863b4d016d5106a675d445ab6dd146e21477e52518b0d4d4f9586dd48877",
+      "rows": 4
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87B_no_BMI_method.csv",
+      "sha256": "c13314dffa2b856c92b1b014b84c0d0cd265f2843a8a2ddfaaf6a974ccdfe6ca",
+      "rows": 3
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87C_no_BMI_assignment_agreement.csv",
+      "sha256": "20d19a5e2686e7537170a9cd0d8834493c33efaff44327b7731e74c21bb63b84",
+      "rows": 3
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87D_no_BMI_profiles.csv",
+      "sha256": "d0cdc948f8534582a3ec3a2b7dd4361ab3e000f1007595525b594545ec4b1871",
+      "rows": 9
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87E_no_BMI_outcome_models.csv",
+      "sha256": "a82ca6c568b6d45c61b70dfec672499a1b1622277ac001fa21b1a3802f1f1e78",
+      "rows": 6
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87F_no_BMI_model_diagnostics.csv",
+      "sha256": "8217450387d96640fa43fcf4dd9d6c87b1afac2bf21eef11cc01c7c3ed7ecdca",
+      "rows": 1
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87G_landmark_counts.csv",
+      "sha256": "84f6e89d3347a32e34f2232d990f5956a52298b4920b3086cb3fa40dd349f8e0",
+      "rows": 9
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87H_landmark_models.csv",
+      "sha256": "51bced61884cfb7149a73b7e8d035efc1b557986cd9b481a75410915d78f3e02",
+      "rows": 24
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87I_landmark_model_diagnostics.csv",
+      "sha256": "faefe5147e19c3f096201ad721990a1ee6048f1c65192efd365f965e8a4c5787",
+      "rows": 6
+    },
+    {
+      "group": "reviewer_sensitivities",
+      "file": "aggregate_results/reviewer_sensitivities/Table87J_QA.csv",
+      "sha256": "35140df9cd76d8bb1ade6e58acfff3da30eb2fcb9e5e6283ef21580c6dbf8c6b",
+      "rows": 10
+    }
+  ],
+  "public_push_performed": false,
+  "expanded_clean_rerun_performed": false,
+  "publication_check_date": "2026-09-04",
+  "additional_complete_rerun": "Not performed; author elected prior-analysis plus source/output verification."
+}

@@ -1,0 +1,13 @@
+check,passed,detail
+Six database-resolution combinations completed,TRUE,rows=6
+Expected aggregate profile rows completed,TRUE,rows=18
+Expected outcome contrast rows completed,TRUE,rows=12
+Six clustering diagnostic rows completed,TRUE,rows=6
+Primary K=3 cohort counts reproduced,TRUE,NHANES 4637; MIMIC-IV 1100; eICU 15242
+Model counts and events reproduced,TRUE,3979/720; 1100/550; 13234/1990
+Every combination contains a P1-versus-P3 estimate,TRUE,six P1 core contrasts
+All estimates finite,TRUE,no missing effect estimate
+All outcome models fitted,TRUE,fit_ok TRUE
+No eICU model singular,TRUE,singular=0
+No outcomes used for clustering or labels,TRUE,outcomes accessed only after mapping
+No participant-level output written,TRUE,aggregate tables and summary-only RDS

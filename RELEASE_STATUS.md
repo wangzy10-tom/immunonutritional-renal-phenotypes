@@ -1,40 +1,11 @@
-# Release status: public GitHub release
+# Version and verification record
 
-Version/tag: `v1.0.0-freeze-v2`  
-Freeze basis: Freeze V2 plus source-locked Amendments 14 and 15  
-Public repository: `https://github.com/wangzy10-tom/immunonutritional-renal-phenotypes`  
-Zenodo DOI: pending archival of the GitHub release
+Package version: `v2.0.0-albumin`. Local checks completed 2026-09-04; publication metadata prepared 2026-09-06. The GitHub commit and Releases page provide the actual publication record; preparing this file alone does not publish a release. No archival DOI has been assigned here.
 
-## Completed in this candidate
+Completed: full-source comparison of four later modules (path-only adaptations); unchanged frozen analysis code; 18-script parse check; 39-function identity check; 34 frozen later-module tables matched; all 30 expected aggregate anchors checked; privacy screen; updated pipeline documentation and hash manifest.
 
-- Copied the frozen core and sensitivity scripts without changing the original
-  project files.
-- Replaced personal drive paths with `PROJECT_ROOT` and data-root variables.
-- Added explicit support steps for the NHANES projection reference, the
-  transitional OASIS-like file, and eICU APACHE extraction.
-- Kept MIMIC-IV/eICU source data and all row-level intermediates outside the
-  candidate package.
-- Excluded all restricted external-cohort data and results, credentials,
-  figures, PDFs, and Word files.
-- Added disclosure rules, citation metadata, license, pipeline manifest, and
-  frozen aggregate expectations.
-- Rebuilt the Table S19 locked model and historical transport as an NHANES-only
-  chain. Fourteen model outputs and ten historical-transport outputs were
-  byte-identical to the frozen numeric sources; coefficients, predictions, and
-  the 6.67% threshold were unchanged.
-- Completed a clean rerun of the permitted NHANES, MIMIC-IV, eICU,
-  cross-database, post-freeze, and exploratory NHANES stages without generating
-  figures or PDFs.
-- Added deterministic score-quartile tie-breaking and a direct eICU APACHE
-  join under Amendment 15. Corrected publication-table QA passed 53/53 and
-  final result-dictionary QA passed 15/15.
+On 2026-09-04 the author authorized publication with source/output checks and explicitly declined another complete rerun. No new models were fitted. The reproduction scope remains analysis-ready input to results, not raw-source extraction. Previously generated reference tables are not represented as newly computed results.
 
-## Remaining archival step
+The previous `v1.0.0-freeze-v2` tag and commit are retained as historical records. Cite the exact commit containing this package after upload and verification. A GitHub release is not an archival DOI; any DOI requires a separate archive deposit. The dated prepublication reports retain the access and upload status observed on their respective check dates.
 
-1. Archive the exact GitHub tag `v1.0.0-freeze-v2` in Zenodo.
-2. After the DOI exists, replace the manuscript's repository placeholder with
-   the GitHub URL, release tag, commit hash, and version-specific Zenodo DOI.
-
-The GitHub repository may be cited as the public code location. It should not
-be described as a DOI-backed permanent archive until the Zenodo record is live
-and its files have been checked against this tag.
+No raw or participant-level file should ever be committed. No PERMTH_EXM sensitivity is planned or included as a pending requirement.

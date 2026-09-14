@@ -1,19 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the associated article and this archived software release."
-title: "Code for data-driven immunonutritional-renal vulnerability phenotypes and mortality in older adults"
+message: "Please cite this software using its version and exact repository commit, together with the associated manuscript."
 type: software
-version: "1.0.0"
-date-released: 2026-07-14
-license: MIT
+version: "v2.0.0-albumin"
+repository-code: "https://github.com/wangzy10-tom/immunonutritional-renal-phenotypes"
+title: "Multisystem profiles and mortality in older adults: analysis code"
 authors:
   - family-names: Wang
     given-names: Ziyang
-    email: wangzy@gzucm.edu.cn
-    affiliation: "Department of Anesthesiology, Guangdong Provincial Hospital of Chinese Medicine, Dade Road General Hospital"
   - family-names: Luo
     given-names: Xiaolin
-    affiliation: "Department of Anesthesiology, Sun Yat-sen University Cancer Center"
-repository-code: "https://github.com/wangzy10-tom/immunonutritional-renal-phenotypes"
-abstract: >-
-  Path-normalized analysis code for the Freeze V2 NHANES, MIMIC-IV, and eICU
-  observational study. No source or individual-level data are distributed.
+  - family-names: Li
+    given-names: Jiajing
+  - family-names: Zhong
+    given-names: Min
+license: MIT

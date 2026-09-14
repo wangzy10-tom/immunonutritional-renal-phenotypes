@@ -1,0 +1,10 @@
+dataset,endpoint,landmark_day,original_n,original_events,landmark_n,landmark_events,early_events_excluded,early_non_events_or_no_longer_observed_excluded
+MIMIC-IV,365-day all-cause mortality,1,1100,550,1053,503,47,0
+MIMIC-IV,365-day all-cause mortality,3,1100,550,1002,452,98,0
+MIMIC-IV,365-day all-cause mortality,7,1100,550,937,387,163,0
+eICU,In-hospital mortality,1,13234,1990,12699,1733,257,278
+eICU,ICU mortality,1,13234,1222,10820,974,248,2166
+eICU,In-hospital mortality,3,13234,1990,10341,1154,836,2057
+eICU,ICU mortality,3,13234,1222,4696,530,692,7846
+eICU,In-hospital mortality,7,13234,1990,5186,585,1405,6643
+eICU,ICU mortality,7,13234,1222,1441,223,999,10794

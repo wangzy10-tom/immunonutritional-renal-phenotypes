@@ -1,0 +1,7 @@
+dataset,k,fit_ok,convergence_message,captured_warnings,singular
+NHANES,2,TRUE,,,NA
+NHANES,4,TRUE,,,NA
+MIMIC-IV,2,TRUE,,,NA
+MIMIC-IV,4,TRUE,,,NA
+eICU,2,TRUE,,,FALSE
+eICU,4,TRUE,,,FALSE
