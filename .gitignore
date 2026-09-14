@@ -1,46 +1,8 @@
-# Local configuration and credentials
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-*credential*
-*secret*
-
-# Raw, derived, or individual-level data
 data/
 output/
-cache/
-tmp/
-*.rds
-*.RDS
+.env
+*.Rhistory
 *.RData
-*.rda
-*.xpt
-*.sas7bdat
-*.dta
-*.sav
-*.parquet
-*.feather
-*.fst
-*.duckdb
-*.db
-*.sqlite
-*.csv.gz
-*.tsv.gz
-*_dataset.csv
-*_cohort.csv
-*_assignments.csv
-*_scores.csv
-*_repetitions.csv
-
-# Third-party code is fetched locally at its pinned release
-vendor/
-
-# Local R/editor files
-.Rhistory
-.RData
 .Rproj.user/
-*.Rproj
 .DS_Store
-Thumbs.db
+
