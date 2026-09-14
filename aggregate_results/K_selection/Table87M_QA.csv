@@ -1,0 +1,11 @@
+check,passed,detail
+Locked cohort sizes reproduced,TRUE,4637/1100/15242
+Gap tables contain K=1 through K=6,TRUE,rows=18
+Silhouette tables contain K=2 through K=6,TRUE,rows=15
+Consensus completed 100 repetitions per database and K,TRUE,all=100
+Stability completed 200 repetitions per database and K,TRUE,all=200
+Cluster-wise Jaccard completed 200 repetitions,TRUE,all=200
+All K-means reference fits converged before iter.max,TRUE,all TRUE
+Decision matrix has one row per database,TRUE,rows=3
+Only six locked features entered clustering,TRUE,outcome-like fields rejected by prepare_matrix
+No participant-level assignments written,TRUE,aggregate diagnostic outputs only

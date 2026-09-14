@@ -1,0 +1,11 @@
+check,passed,detail
+NHANES model cohort reproduced,TRUE,Expected 3979/720
+No-BMI clustering retained fixed cohorts,TRUE,Expected 4637; 1100; 15242
+No-BMI outcome model cohorts reproduced,TRUE,Expected 3979; 1100; 13234
+All no-BMI estimates finite,TRUE,No missing estimate
+All landmark estimates finite,TRUE,No missing estimate
+Landmark samples decline monotonically,TRUE,n at day 1 >= day 3 >= day 7
+No eICU model singular,TRUE,All random-intercept fits non-singular
+No eICU convergence messages or captured warnings,TRUE,All scaled continuous-covariate fits completed cleanly
+No outcomes used in no-BMI clustering or mapping,TRUE,Outcome models fitted only after assignments were produced
+No row-level outputs written,TRUE,Only aggregate tables and summary RDS

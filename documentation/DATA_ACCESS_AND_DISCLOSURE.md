@@ -1,28 +1,5 @@
-# Data access and disclosure rules
+# Data access and disclosure
 
-## NHANES
+NHANES source files are publicly available from the US Centers for Disease Control and Prevention. MIMIC-IV v3.1 and eICU-CRD v2.0 are credentialed, de-identified PhysioNet resources; users must complete the applicable training and data-use agreements. This code release does not redistribute any database file.
 
-The analysis uses public NHANES examination, laboratory, questionnaire, and
-linked mortality public-use files. Source files are not redistributed here.
-Users must obtain them from the official CDC/NCHS sources and comply with the
-applicable public-use terms.
-
-## MIMIC-IV and eICU
-
-MIMIC-IV v3.1 and eICU-CRD v2.0 are credentialed PhysioNet resources. This
-repository contains code only. It must never contain raw tables, extracted
-cohorts, row-level intermediate files, credentials, access tokens, screenshots,
-or data copied from an authorized environment.
-
-## Permitted public outputs
-
-Only disclosure-screened aggregate results are permitted, such as cohort totals,
-model coefficients, confidence intervals, and sufficiently large phenotype
-summaries already reported in the manuscript. Individual records and very small
-stratified cells are prohibited.
-
-## Restricted external-cohort boundary
-
-No restricted external-cohort data or derived files are part of this release
-candidate. Any separately authorized material remains outside the current study
-repository.
+The environment variables point to files held outside version control. The generated `output/` directory may contain row-level assignments or model objects and must not be committed or uploaded. Only aggregate tables that pass disclosure review may be shared. Authors and other users remain responsible for the institutional ethics requirements and data-use terms applicable to their own work.

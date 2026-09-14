@@ -1,0 +1,26 @@
+[
+  {
+    "test": "runner path with spaces",
+    "expected_success": true,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "test": "reject_missing_expected_id",
+    "expected_success": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "test": "reject_duplicate_expected_id",
+    "expected_success": false,
+    "exit_code": 1,
+    "passed": true
+  },
+  {
+    "test": "reject_changed_estimate",
+    "expected_success": false,
+    "exit_code": 1,
+    "passed": true
+  }
+]

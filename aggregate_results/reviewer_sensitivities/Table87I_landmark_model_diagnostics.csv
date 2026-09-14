@@ -1,0 +1,7 @@
+dataset,model,n,events,hospitals,convergence_message,captured_warnings,singular
+eICU,1-day hospital landmark,12699,1733,166,,,FALSE
+eICU,1-day ICU landmark,10820,974,166,,,FALSE
+eICU,3-day hospital landmark,10341,1154,164,,,FALSE
+eICU,3-day ICU landmark,4696,530,158,,,FALSE
+eICU,7-day hospital landmark,5186,585,152,,,FALSE
+eICU,7-day ICU landmark,1441,223,136,,,FALSE

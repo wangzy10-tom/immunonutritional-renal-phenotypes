@@ -1,0 +1,7 @@
+dataset,n_clustered,k,selected_model,objective,iterations,converged,ifault
+NHANES,4637,2,"K-means Lloyd, K=2",22264.315078345404,18,TRUE,NA
+NHANES,4637,4,"K-means Lloyd, K=4",17670.08645897374,19,TRUE,NA
+MIMIC-IV,1100,2,"K-means Lloyd, K=2",5334.6448890982365,17,TRUE,NA
+MIMIC-IV,1100,4,"K-means Lloyd, K=4",4031.582868419385,25,TRUE,NA
+eICU,15242,2,"K-means Lloyd, K=2",72511.29985091652,25,TRUE,NA
+eICU,15242,4,"K-means Lloyd, K=4",56271.337105985716,56,TRUE,NA

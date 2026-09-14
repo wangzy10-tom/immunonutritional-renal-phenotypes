@@ -1,0 +1,9 @@
+check,passed,detail
+No Windows absolute path,TRUE,
+No user-home identifier,TRUE,
+No historical analyte code,TRUE,
+No credential-like assignment,TRUE,
+No row-level or database binary file,TRUE,
+All 102 aggregate result IDs retained,TRUE,rows=102
+Expected key results are aggregate only,TRUE,rows=30
+All required public scripts exist,TRUE,"18 R scripts, including four later modules; current parse check passed"
